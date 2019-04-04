@@ -1,6 +1,3 @@
-# randomgiftgeneratorjavaproject
-An School Project
-
 public class MylesRandomGiftGeneratorJavaProject {
    
    public static void main(String[] args) {
