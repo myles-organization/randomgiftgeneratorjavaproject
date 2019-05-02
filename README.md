@@ -1,3 +1,9 @@
+// Created by Myles Robertson
+//
+// Goal: To give friends random gifts to their interests
+//
+// Anyone can edit this
+
 import java.util.Scanner;
 
 
@@ -26,12 +32,26 @@ public class MylesRandomGiftGeneratorJavaProject {
       
       if (input.equals("Video Games")) {
       
-         System.out.println("If your friend likes video games, then you should try buying Minecraft!!!");
+         System.out.println("Does your friend like new or old games?");//("If your friend likes video games, then you should try buying Minecraft!!!");
          
+         String next = scan.nextLine();
          
+         if (next.equals("new")) {
          
-      }
+            System.out.println("Does your friend like building blocks or arcade games");
+            
+            String nextnext = scan.nextLine();
+            
+            if (nextnext.equals("building blocks")) {
+            
+               System.out.println("Minecraft");
+               
+           } else {
+            System.out.println("Pac Man");
+         }
+         
       
+      }
       else if (input.equals("Toys")) {
          
          System.out.println("If your friend likes Toys, then you should try buying a Toy Train!!!");
@@ -42,9 +62,23 @@ public class MylesRandomGiftGeneratorJavaProject {
       
       else if (input.equals("Books")) {
       
-         System.out.println("If your friend likes Books, then you should try buying Harry Potter!!!");
+         System.out.println("Does your friend like fantasy or non-fiction");
+         
+         String nextnextnext = scan.nextLine();
+         
+         if (nextnextnext.equals("Fantasy")) {
+      
+            System.out.println("Harry Potter");
+         
+         }
+         
+         else {
          
          
+         
+         System.out.println("iDK (I Don't Know)");
+         
+         }
          
       }
       
@@ -92,10 +126,8 @@ public class MylesRandomGiftGeneratorJavaProject {
       else if (input.equals("Running")) {
       
          System.out.println("If your friend likes Outdoor Equipment, then you should try buying Running Gear!!!");
-         
-         
-         
-     }
-
+      }
+   }   
    }
-}
+ }     
+         
